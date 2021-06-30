@@ -1,42 +1,21 @@
-#
-# Be sure to run `pod lib lint PLVImagePickerController.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'PLVImagePickerController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PLVImagePickerController.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A clone of TZImagePickerController, support picking multiple photos、original photo and video'
+  
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  PLVImagePickerController
+  iOS 拍照，相册多选功能
                        DESC
 
-  s.homepage         = 'https://github.com/Sakya0214@gmail.com/PLVImagePickerController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/polyv/PLVImagePickerController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sakya0214@gmail.com' => 'pengyunfei@polyv.net' }
-  s.source           = { :git => 'https://github.com/Sakya0214@gmail.com/PLVImagePickerController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/polyv/PLVImagePickerController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PLVImagePickerController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PLVImagePickerController' => ['PLVImagePickerController/Assets/*.png']
-  # }
+  s.resources    = 'PLVImagePickerController/Classes/PLVImagePickerController/*.{png,bundle}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
