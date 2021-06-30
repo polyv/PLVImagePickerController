@@ -9,6 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Tag
+
+| PLVImagePickerController | TZVImagePickerController |
+| ------------------------ | ------------------------ |
+| **0.1.0**                | **3.6.0**                |
+
 ## Requirements
 
 ## Installation
@@ -22,7 +28,7 @@ pod 'PLVImagePickerController'
 
 ## Author
 
-Sakya0214@gmail.com, pengyunfei@polyv.net
+[PengYF](Sakya0214@gmail.com)
 
 ## License
 
