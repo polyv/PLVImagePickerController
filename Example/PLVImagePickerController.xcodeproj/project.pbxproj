@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Sakya0214@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8BMZBNN3Q5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -521,10 +524,13 @@
 			baseConfigurationReference = F4B6BFF22C77AC8E87AD9EA2 /* Pods-PLVImagePickerController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 8BMZBNN3Q5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PLVImagePickerController/PLVImagePickerController-Prefix.pch";
 				INFOPLIST_FILE = "PLVImagePickerController/PLVImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,10 +544,13 @@
 			baseConfigurationReference = E6CFA7030562A61688D5BB0D /* Pods-PLVImagePickerController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 8BMZBNN3Q5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PLVImagePickerController/PLVImagePickerController-Prefix.pch";
 				INFOPLIST_FILE = "PLVImagePickerController/PLVImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
